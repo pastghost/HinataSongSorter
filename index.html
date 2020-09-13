@@ -1,0 +1,113 @@
+<html>
+
+<head>
+  <link rel="shortcut icon" href="src/assets/yinyang.ico" type="image/x-icon">
+  <link rel="icon" href="src/assets/yinyang.ico" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="og:site_name" content="Nogizaka46 Song Sorting">
+  <meta name="og:description" content="Rank your favourite Nogizaka46 Songs in a simple way.">
+  <meta name="og:image" content="https://i.imgur.com/bfLb1lL.jpg">
+  <title>Hinatazaka46 Song Sorter</title>
+
+  <link rel="stylesheet" type="text/css" href="src/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="src/css/plyr.css">
+  <link rel="stylesheet" type="text/css" href="src/css/hover.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.plyr.io/3.6.2/plyr.js"></script>
+
+  <script src="src/js/data.js"></script>
+  <script src="src/js/data/2020-09-13.js"></script>
+
+
+  <script src="src/js/html2canvas.min.js"></script>
+  <script src="src/js/lz-string.min.js"></script>
+  <script src="src/js/seedrandom.min.js"></script>
+  <script src="src/js/main.js"></script>
+
+
+</head>
+
+<body>
+  <div class="progress">
+    <span class="progressbattle"></span>
+    <div class="progressbar">
+      <div class="progressfill">
+        <span class="progresstext"></span>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+
+    <div class="sorter">
+      <img src="src/assets/defaultL2.png" class="left sort image">
+      <div class="starting start button hvr-fade">
+        <p>Hinatazaka46 Song Sorter<br><br>Click to Start!</p>
+      </div>
+      <div class="starting load button hvr-fade">
+        <p>Load <span></span></p>
+      </div>
+
+      <div class="loading button">
+        <div></div><span>Loading...</span>
+      </div>
+
+      <div class="sorting tie button hvr-fade tie">
+        <p>Tie</p>
+      </div>
+      <div class="sorting undo button hvr-fade undo">
+        <p>Undo</p>
+      </div>
+      <div class="sorting save button hvr-fade savePrg">
+        <p>Save Progress</p>
+      </div>
+
+      <div class="finished save button hvr-fade tie">
+        <p>Generate Result URL</p>
+      </div>
+      <div class="finished getimg button hvr-fade undo">
+        <p>Generate Image</p>
+      </div>
+      <div class="finished list button hvr-fade savePrg">
+        <p>Generate Text List</p>
+      </div>
+      <img src="src/assets/defaultR.png" class="hvr-reveal right sort image ">
+      <div id="playerL" class="none">
+        <audio controls id="audioL" class="js-player">
+          <source class="left sort song" src="" type="audio/mpeg">
+        </audio>
+      </div>
+      <div id="playerR" class="none">
+        <audio controls id="audioR" class="js-player">
+          <source class="right sort song" src="" type="audio/mpeg">
+        </audio>
+      </div>
+
+      <div class="left sort text">
+        <p class="toHide"></p>
+        <p class="toShow"></p>
+      </div>
+      <div class="right sort text">
+        <p class="toHide"></p>
+        <p class="toShow"></p>
+      </div>
+
+    </div>
+
+    <div class="time taken"></div>
+    <div class="results"></div>
+
+    <div class="info">
+      <a class="clearsave">Clear Save Data</a>
+
+      <p class="moreInf">Keyboard controls during sorting: 🠜 (pick left) - 🠝 (tie) - 🠟 (undo) - 🠞 (pick right) - S (save progress) - N/X (⏵|⏸ Left) - M/C (⏵|⏸ Right).</p>
+      <p class="moreInf">Before sorting: Enter (start sorting) - L (load progress).
+      <p class="moreInf">Hover over the Romaji Name to get the Kanji Name.</p>
+      <p class="moreInfMobile">Tap on the Romaji Name to get the Kanji Name.</p>
+
+    </div>
+  </div>
+</body>
+
+</html>
