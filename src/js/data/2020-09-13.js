@@ -475,7 +475,7 @@ dataSet[dataSetVersion].characterData =
       },
       {
         "nameKanji": "窓を開けなくても",
-        "name": "Mado wo Hirakenakute mo",
+        "name": "Mado wo Akenakute mo",
         "Single": "Sonna Koto Nai yo",
         "Album": "Hinatazaka",
         "img": "plmlbBC.jpg",
