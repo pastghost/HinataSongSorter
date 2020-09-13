@@ -191,8 +191,8 @@
 }
 
 .plyr__control.plyr__tab-focus {
-	outline-color: #7e1083;
-	outline-color: var(--plyr-tab-focus-color, var(--plyr-color-main, var(--plyr-color-main, #7e1083)));
+	outline-color: #1c9eff;
+	outline-color: var(--plyr-tab-focus-color, var(--plyr-color-main, var(--plyr-color-main, #1c9eff)));
 	outline-offset: 2px;
 	outline-style: dotted;
 	outline-width: 3px
@@ -476,8 +476,8 @@ a.plyr__control::before {
 }
 
 .plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]::before {
-	background: #7e1083;
-	background: var(--plyr-control-toggle-checked-background, var(--plyr-color-main, var(--plyr-color-main, #7e1083)))
+	background: #1c9eff;
+	background: var(--plyr-control-toggle-checked-background, var(--plyr-color-main, var(--plyr-color-main, #1c9eff)))
 }
 
 .plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]::after {
@@ -508,8 +508,8 @@ a.plyr__control::before {
 	border: 0;
 	border-radius: calc(13px * 2);
 	border-radius: calc(var(--plyr-range-thumb-height, 13px) * 2);
-	color: #7e1083;
-	color: var(--plyr-range-fill-background, var(--plyr-color-main, var(--plyr-color-main, #7e1083)));
+	color: #1c9eff;
+	color: var(--plyr-range-fill-background, var(--plyr-color-main, var(--plyr-color-main, #1c9eff)));
 	display: block;
 	height: calc((3px * 2) + 13px);
 	height: calc((var(--plyr-range-thumb-active-shadow-width, 3px) * 2) + var(--plyr-range-thumb-height, 13px));
@@ -660,24 +660,24 @@ a.plyr__control::before {
 }
 
 .plyr--full-ui input[type=range].plyr__tab-focus::-webkit-slider-runnable-track {
-	outline-color: #7e1083;
-	outline-color: var(--plyr-tab-focus-color, var(--plyr-color-main, var(--plyr-color-main, #7e1083)));
+	outline-color: #1c9eff;
+	outline-color: var(--plyr-tab-focus-color, var(--plyr-color-main, var(--plyr-color-main, #1c9eff)));
 	outline-offset: 2px;
 	outline-style: dotted;
 	outline-width: 3px
 }
 
 .plyr--full-ui input[type=range].plyr__tab-focus::-moz-range-track {
-	outline-color: #7e1083;
-	outline-color: var(--plyr-tab-focus-color, var(--plyr-color-main, var(--plyr-color-main, #7e1083)));
+	outline-color: #1c9eff;
+	outline-color: var(--plyr-tab-focus-color, var(--plyr-color-main, var(--plyr-color-main, #1c9eff)));
 	outline-offset: 2px;
 	outline-style: dotted;
 	outline-width: 3px
 }
 
 .plyr--full-ui input[type=range].plyr__tab-focus::-ms-track {
-	outline-color: #7e1083;
-	outline-color: var(--plyr-tab-focus-color, var(--plyr-color-main, var(--plyr-color-main, #7e1083)));
+	outline-color: #1c9eff;
+	outline-color: var(--plyr-tab-focus-color, var(--plyr-color-main, var(--plyr-color-main, #1c9eff)));
 	outline-offset: 2px;
 	outline-style: dotted;
 	outline-width: 3px
@@ -949,8 +949,8 @@ a.plyr__control::before {
 .plyr--audio .plyr__control.plyr__tab-focus,
 .plyr--audio .plyr__control:hover,
 .plyr--audio .plyr__control[aria-expanded=true] {
-	background: #7e1083;
-	background: var(--plyr-audio-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, #7e1083)));
+	background: #1c9eff;
+	background: var(--plyr-audio-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, #1c9eff)));
 	color: #fff;
 	color: var(--plyr-audio-control-color-hover, #fff)
 }
@@ -1065,15 +1065,15 @@ a.plyr__control::before {
 .plyr--video .plyr__control.plyr__tab-focus,
 .plyr--video .plyr__control:hover,
 .plyr--video .plyr__control[aria-expanded=true] {
-	background: #7e1083;
-	background: var(--plyr-video-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, #7e1083)));
+	background: #1c9eff;
+	background: var(--plyr-video-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, #1c9eff)));
 	color: #fff;
 	color: var(--plyr-video-control-color-hover, #fff)
 }
 
 .plyr__control--overlaid {
-	background: #7e1083;
-	background: var(--plyr-video-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, #7e1083)));
+	background: #1c9eff;
+	background: var(--plyr-video-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, #1c9eff)));
 	border: 0;
 	border-radius: 100%;
 	color: #fff;
