@@ -3,7 +3,7 @@ from os.path import isfile, join, exists
 from os import rename
 import re
 
-mypath = r'\src\songs'
+mypath = r'src\songs'
 onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
 for i in onlyfiles :
